@@ -102,6 +102,10 @@ img {
 
 /* Header section */
 
+.logo-padding {
+  padding: 24px 0;
+}
+
 .header-container {
   display: flex;
   align-items: center;
