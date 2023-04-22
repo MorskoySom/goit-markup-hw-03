@@ -178,7 +178,9 @@ img {
 }
 
 .hero-container {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero-headline {
