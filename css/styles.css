@@ -369,8 +369,9 @@ text-align: center;
   align-items: flex-start;
   gap: 8px;
   border: 1px solid var(--color-cornflower);
+  border-top: none;
 }
 
-.desc-dprj-container {
-  border: 1px solid var(--color-cornflower);
+.done-prj-element {
+  flex-basis: calc((100% - 24 * 2) / 3);
 }
