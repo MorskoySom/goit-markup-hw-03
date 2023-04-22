@@ -258,6 +258,14 @@ text-align: center;
 
 /* Team section */
 
+.team-container {
+  display: flex;
+  gap: 24px;
+}
+
+.card-content {
+}
+
 .team-color {
   background-color: var(--color-cloud);
 }
@@ -266,9 +274,21 @@ text-align: center;
   background-color: var(--white-color);
 }
 
-.team-desc {
+.desc-team-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 32px 16px;
+  gap: 8px;
 }
+
+/* display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px; */
 
 /* Footer block */
 
