@@ -123,6 +123,7 @@ img {
   display: flex;
   align-items: center;
   margin-right: auto;
+  padding: 24px 0;
 }
 
 .header-address-row {
@@ -196,8 +197,8 @@ img {
   text-decoration: none;
   text-transform: none;
   text-align: center;
-  width: 496px;
-  height: 120px;
+  padding: 188px 0;
+  max-width: 496px;
 }
 
 /* position: absolute;
@@ -209,7 +210,7 @@ text-align: center;
  */
 
 .hero-btn {
-  display: flex;
+  display: block;
   flex-direction: row;
   align-items: flex-start;
   gap: 10px;
@@ -220,6 +221,7 @@ text-align: center;
   letter-spacing: 0.04em;
   color: var(--white-color);
   background-color: var(--iris-color);
+  min-width: 169px;
   cursor: pointer;
   padding: 16px 32px;
   margin: 48px auto 0;
