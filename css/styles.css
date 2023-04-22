@@ -58,6 +58,10 @@ img {
   outline-offset: -2px;
 }
 
+.section {
+  padding: 120px 0;
+}
+
 .header-border {
   border-width: 0 0 1px 0;
   border-style: solid;
@@ -173,7 +177,12 @@ img {
   background-color: var(--color-navy-blue);
 }
 
+.hero-container {
+  display: block;
+}
+
 .hero-headline {
+  display: block;
   color: var(--white-color);
   font-size: 56px;
   font-weight: 700;
@@ -183,8 +192,16 @@ img {
   text-transform: none;
   text-align: center;
   width: 496px;
-  margin: 188px auto 0;
+  height: 120px;
 }
+
+/* position: absolute;
+width: 496px;
+height: 120px;
+left: 472px;
+top: 260px;
+text-align: center;
+ */
 
 .hero-btn {
   display: flex;
