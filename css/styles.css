@@ -255,6 +255,10 @@ text-align: center;
   gap: 24px;
 }
 
+.doing-element {
+  flex-basis: calc((100% - 24 * 2) / 3);
+}
+
 /* Team section */
 
 .team-container {
