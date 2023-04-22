@@ -54,9 +54,6 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-
-  outline: 2px solid red;
-  outline-offset: -2px;
 }
 
 .section {
@@ -263,15 +260,16 @@ text-align: center;
   gap: 24px;
 }
 
-.card-content {
-}
-
 .team-color {
   background-color: var(--color-cloud);
 }
 
 .team-color-list {
   background-color: var(--white-color);
+}
+
+.team-item-border {
+  border-radius: 0px 0px 4px 4px;
 }
 
 .desc-team-container {
