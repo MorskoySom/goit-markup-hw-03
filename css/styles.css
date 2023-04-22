@@ -315,6 +315,18 @@ text-align: center;
 }
 
 /* Portfolio buttons row section */
+
+.btn-row-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.btn-row-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
 .btn-row {
   color: var(--iris-color);
   background-color: var(--color-cloud);
