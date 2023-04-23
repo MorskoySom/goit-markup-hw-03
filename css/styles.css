@@ -124,7 +124,6 @@ img {
   display: flex;
   align-items: center;
   margin-right: auto;
-  padding: 24px 0;
 }
 
 .header-address-row {
@@ -281,7 +280,6 @@ text-align: center;
 }
 
 .desc-team-container {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -315,6 +313,10 @@ text-align: center;
 .footer-link-status {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer-text-size {
+  width: 264px;
 }
 
 /* Portfolio buttons row section */
@@ -364,7 +366,6 @@ text-align: center;
 }
 
 .desc-done-prj-container {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
