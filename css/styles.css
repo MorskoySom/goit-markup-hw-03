@@ -117,7 +117,6 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  margin-left: 76px;
 }
 
 .header-nav-row {
@@ -257,7 +256,7 @@ text-align: center;
 }
 
 .doing-element {
-  flex-basis: calc((100% - 24 * 2) / 3);
+  flex-basis: calc((100% - 24px * 2) / 3);
 }
 
 /* Team section */
@@ -376,5 +375,5 @@ text-align: center;
 }
 
 .done-prj-element {
-  flex-basis: calc((100% - 24 * 2) / 3);
+  flex-basis: calc((100% - 24px * 2) / 3);
 }
