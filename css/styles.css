@@ -60,6 +60,10 @@ img {
   padding: 120px 0;
 }
 
+.section-skills {
+  padding: 120px 0 0 0;
+}
+
 .header-border {
   border-width: 0 0 1px 0;
   border-style: solid;
